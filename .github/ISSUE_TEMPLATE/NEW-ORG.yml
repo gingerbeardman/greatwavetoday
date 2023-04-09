@@ -28,23 +28,23 @@ body:
     id: online
     attributes:
       label: Online collection?
-      description: Your collection needs to be available online for it to be tracked 
+      description: In order for us to track your collection it needs to be available online
       options:
-        - label: We have an online collection
+        - label: collection is online
           required: false
   - type: checkboxes
     id: onview
     attributes:
       label: On view status visible?
-      description: Your item page needs to be show on view status for it to be tracked 
+      description: In order for us to track view status it needs to be visible online
       options:
-        - label: We have visible on view status
+        - label: on view status is visible
           required: false
   - type: checkboxes
     id: original
     attributes:
       label: Original impression?
-      description: We do not list impressions that were produced after Hokusai's death 
+      description: We do not track impressions that were produced after Hokusai's death 
       options:
-        - label: We have an original impression
-          required: true
+        - label: we have an original impression
+          required: false

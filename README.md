@@ -4,7 +4,7 @@ Sources for [greatwavetoday.com](https://greatwavetoday.com) that shows where on
 ## Submissions
 
 If you are a Gallery or Museum with an original impression woodblock print of _The Great Wave_ that is not currently listed:
-- [New Organisation form](https://github.com/gingerbeardman/greatwavetoday/issues/new/choose)
+- [New Impression form](https://github.com/gingerbeardman/greatwavetoday/issues/new/choose)
 
 ## Problems
 

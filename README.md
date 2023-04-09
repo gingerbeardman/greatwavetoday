@@ -1,4 +1,4 @@
-# greatwavetoday
+# Great Wave Today
 Sources for greatwavetoday.com
 
 # Submissions

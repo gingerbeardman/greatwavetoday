@@ -1,5 +1,5 @@
 # Great Wave Today
-Sources for greatwavetoday.com that shows where on Earth you can see Hokusai's Great Wave ...today!
+Sources for [greatwavetoday.com](https://greatwavetoday.com) that shows where on Earth you can see Hokusai's Great Wave ...today!
 
 # Submissions
 

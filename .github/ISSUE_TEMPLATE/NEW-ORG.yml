@@ -1,0 +1,50 @@
+name: New Organisation
+description: Gallery/Museum contact form
+title: "[New]: "
+labels: ["new"]
+assignees:
+  - gingerbeardman
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  - type: input
+    id: org
+    attributes:
+      label: Organisation name
+      description: The name of your gallery or museum
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: checkboxes
+    id: online
+    attributes:
+      label: Online collection?
+      description: Your collection needs to be available online for it to be tracked 
+      options:
+        - label: We have an online collection
+          required: false
+  - type: checkboxes
+    id: onview
+    attributes:
+      label: On view status visible?
+      description: Your item page needs to be show on view status for it to be tracked 
+      options:
+        - label: We have visible on view status
+          required: false
+  - type: checkboxes
+    id: original
+    attributes:
+      label: Original impression?
+      description: We do not list impressions that were produced after Hokusai's death 
+      options:
+        - label: We have an original impression
+          required: true

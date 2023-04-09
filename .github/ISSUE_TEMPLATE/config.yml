@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions
-    url: https://twitter.com/gingerbeardman
-    about: Please ask questions on Twitter
+  - name: Question
+    url: https://github.com/gingerbeardman/greatwavetoday/discussions
+    about: Please use Discussions

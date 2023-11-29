@@ -50,10 +50,6 @@ body:
           required: false
   - type: markdown
     attributes:
-      value: |
-      <hr>
-  - type: markdown
-    attributes:
       value: If you've not ticked the above two boxes, please fill in this one
   - type: input
     id: freeform

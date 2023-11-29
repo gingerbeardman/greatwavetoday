@@ -43,18 +43,18 @@ body:
   - type: checkboxes
     id: onview
     attributes:
-      label: On view status visible?
+      label: On view status visible online?
       description: In order for us to track view status it needs to be visible online
       options:
         - label: on view status is visible
           required: false
   - type: markdown
     attributes:
-      value: If you've not ticked the above two boxes, please fill in this one
+      value: If you've not ticked the above two boxes, please fill in this one:
   - type: input
     id: freeform
     attributes:
-      label: On view details if not visible online
+      label: On view details, if not visible online
       description: When the impression is on view, if this information is not online
     validations:
       required: false

@@ -32,10 +32,6 @@ body:
       options:
         - label: we have an original impression
           required: false
-  - type: markdown
-    attributes:
-      value: |
-      <hr>
   - type: checkboxes
     id: online
     attributes:

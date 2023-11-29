@@ -31,7 +31,7 @@ body:
       description: We do not track impressions that were produced after Hokusai's death 
       options:
         - label: we have an original impression
-          required: false
+          required: true
   - type: checkboxes
     id: online
     attributes:

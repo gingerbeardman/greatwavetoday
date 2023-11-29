@@ -9,7 +9,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this form!
-        **In order for your impression to be added our automation needs to be able to check the status through a web page.**
   - type: input
     id: org
     attributes:
@@ -49,3 +48,7 @@ body:
       options:
         - label: we have an original impression
           required: false
+  - type: markdown
+    attributes:
+      value: |
+        **It is most ideal if our automation can check the on view status through a web page, which would mean you have ticked all three boxes above.**

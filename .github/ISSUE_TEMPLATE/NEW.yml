@@ -51,7 +51,7 @@ body:
   - type: input
     id: freeform
     attributes:
-      label: On view details if not online
-      description: When the impression is on view if this information is not online.
+      label: On view details if not visible online
+      description: When the impression is on view, if this information is not online
     validations:
       required: false

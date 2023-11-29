@@ -32,6 +32,9 @@ body:
       options:
         - label: we have an original impression
           required: false
+  - type: markdown
+    attributes:
+      value: ----
   - type: checkboxes
     id: online
     attributes:
@@ -48,6 +51,9 @@ body:
       options:
         - label: on view status is visible
           required: false
+  - type: markdown
+    attributes:
+      value: If you've not ticked the above two boxes, please fill in this one:
   - type: input
     id: freeform
     attributes:

@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this form!
+        Thanks for taking the time to fill out this form! |
+        In order for your impression to be added our automation needs to be able to check the status through a web page.
   - type: input
     id: org
     attributes:

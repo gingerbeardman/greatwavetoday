@@ -25,6 +25,14 @@ body:
     validations:
       required: false
   - type: checkboxes
+    id: original
+    attributes:
+      label: Original impression?
+      description: We do not track impressions that were produced after Hokusai's death 
+      options:
+        - label: we have an original impression
+          required: false
+  - type: checkboxes
     id: online
     attributes:
       label: Online collection?
@@ -40,16 +48,10 @@ body:
       options:
         - label: on view status is visible
           required: false
-  - type: checkboxes
-    id: original
+  - type: input
+    id: freeform
     attributes:
-      label: Original impression?
-      description: We do not track impressions that were produced after Hokusai's death 
-      options:
-        - label: we have an original impression
-          required: false
-  - type: markdown
-    attributes:
-      value: |
-        **It is most ideal if our automation can check the on view status through a web page,
-        which would mean you have ticked all three boxes above.**
+      label: On view details if not online
+      description: When the impression is on view if this information is not online.
+    validations:
+      required: false

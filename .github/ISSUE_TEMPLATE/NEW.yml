@@ -51,4 +51,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        **It is most ideal if our automation can check the on view status through a web page, which would mean you have ticked all three boxes above.**
+        **It is most ideal if our automation can check the on view status through a web page,
+        which would mean you have ticked all three boxes above.**

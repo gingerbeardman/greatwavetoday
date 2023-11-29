@@ -55,6 +55,6 @@ body:
     id: freeform
     attributes:
       label: On view status is not visible online
-      description: When will the impression be on view?
+      description: When will the impression be on view? Between which dates? Permanently?
     validations:
       required: false

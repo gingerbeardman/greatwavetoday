@@ -50,11 +50,11 @@ body:
           required: false
   - type: markdown
     attributes:
-      value: ...if you've not ticked the above two boxes, please fill in this one
+      value: ...if you've not ticked the above two boxes, please fill in the text box below
   - type: input
     id: freeform
     attributes:
       label: On view details, if not visible online
-      description: When the impression is on view, if this information is not online
+      description: When will the impression be on view?
     validations:
       required: false
